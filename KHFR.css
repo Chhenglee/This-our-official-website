@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image:linear-gradient(rgba(159, 39, 230, 0.5),rgb(0,0,0,0.5)),url(https://cdn.cnn.com/cnnnext/dam/assets/170427120949-02-khmer-cuisine.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo{
+    position: absolute;
+    margin: 5px;
+    padding: 5px;
+    
+}
+.main{
+    max-width: 1200px;
+    margin:auto;
+}
+    
+
+.tittle{
+    position: absolute;
+    font-size: 25px;
+    font-weight: bolder;
+    top:50%;
+    left: 23%;
+    color: whitesmoke;
+    font-family:Copperplate, Papyrus, fantasy;
+}
+.tittle p{
+    text-align: center;
+}
+
+ul{
+    list-style-type:none;
+    float: right;
+    margin-top: 40px;
+}
+ul li{
+    display: inline-block;
+    
+}
+ul li a:hover{
+    
+    color:white;
+    box-shadow: rgba(240, 237, 197, 0.3) 3px 3px 3px 1px;
+    border-radius: 10px;
+    
+}
+ul li.active a{
+    background-color: rgba(255, 255, 255, 0.40);
+    color: white;
+    border-radius: 10px;
+
+
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border:1px solid transparent;
+    transition:0.6s ease;
+}
+.tittle h1:hover{
+    transition: 1s ;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(224, 210, 81), 0 0 5px rgb(236, 233, 8);
+}
+.tittle p:hover{
+    transition: 1s ;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(154, 228, 34), 0 0 5px rgb(175, 236, 8);
+    text-decoration: wavy;
+    font-size: xx-large;
+}
+
+
